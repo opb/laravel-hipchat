@@ -28,10 +28,10 @@ HipchatNotifier::message($message, $options);
 Installation
 ------------
 
-Install into your Laravel app via composer:
+Install into your Laravel app via composer. See the bottom of this readme for tips on selecting which version to go for.
 
 ```
-"opb/laravel-hipchat": "dev-master",
+"opb/laravel-hipchat": "0.*",
 ```
 
 `composer update` and then publish the config file:
@@ -103,6 +103,9 @@ Todo
 - Support Laravel 5
 - Support HipChat API v2
 
+Version Roadmap
+--------
 
- 
-
+- **0.\*** - until confirmed stable. New features may be added, but none removed.
+- **1.\*** - confirmed stable.
+- **2.\*** - this will support the HipChat v2 API, which has not been assessed yet. Definite breaking changes from **1.\***.
