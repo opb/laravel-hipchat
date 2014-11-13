@@ -1,6 +1,7 @@
 {
     "name": "opb/laravel-hipchat",
-    "description": "Laravel wrapper for sending messages to HipChat rooms",
+    "description": "HipChat Notifier for Laravel 4",
+    "keywords": ["Laravel", "Notification", "HipChat", "Notifier"],
     "authors": [
         {
             "name": "Olly Butterfield",
