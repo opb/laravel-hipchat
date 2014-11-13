@@ -66,7 +66,7 @@ There are several options which can (and some which must) be provided to the pac
 | format | No | 'auto' | Yes | Message format - **html**, **text** or **auto** |
 
 
-- Color options - **yellow**, **red**, **gray**, **green**, **prple**, **random**
+- Color options - **yellow**, **red**, **gray**, **green**, **purple**, **random**
 - Message format - HipChat can format basic html structures (lists, paragraphs, bold, italic, etc) when set to **html** format. Emoticons are only rendered when **text** format is used. **auto** will check for any html tags in your message and decide automagically which to use.
 
 Usage
