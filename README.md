@@ -37,7 +37,7 @@ Install into your Laravel app via composer. See the bottom of this readme for ti
 `composer update` and then publish the config file:
 
 ```
-php artisan publish:config opb/laravel-hipchat
+php artisan config:publish opb/laravel-hipchat
 ```
 
 You should then find the config file at `app/config/packages/opb/laravel-hipchat/config.php`. Edit it to specify the required settings (API token and default room name) and additional default options.
