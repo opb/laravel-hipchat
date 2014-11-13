@@ -2,6 +2,7 @@
     "name": "opb/laravel-hipchat",
     "description": "HipChat Notifier for Laravel 4",
     "keywords": ["Laravel", "Notification", "HipChat", "Notifier"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Olly Butterfield",
