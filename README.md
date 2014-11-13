@@ -45,7 +45,7 @@ You should then find the config file at `app/config/packages/opb/laravel-hipchat
 Register the service provider in `app.php`:
 
 ```
-\Opb\LaravelHipchat\HipchatNotifierServiceProvider
+Opb\LaravelHipchat\HipchatNotifierServiceProvider
 ```
 
 The `HipchatNotifier` facade is registered automatically and does **not** need to be added to the `aliases` array in `app.php`.
@@ -105,7 +105,9 @@ Todo
 
 Version Roadmap
 --------
+Versions will follow semantic versioning.
 
 - **0.\*** - until confirmed stable. New features may be added, but none removed.
-- **1.\*** - confirmed stable.
+- **1.0.\*** - confirmed stable.
+- **1.\*** - Laravel 5 support.
 - **2.\*** - this will support the HipChat v2 API, which has not been assessed yet. Definite breaking changes from **1.\***.
