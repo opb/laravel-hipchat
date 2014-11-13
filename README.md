@@ -40,7 +40,7 @@ Install into your Laravel app via composer:
 php artisan publish:config opb/laravel-hipchat
 ```
 
-You should then find the config file at `app/config/packages/opb/laravel-hipchat/config.php`.
+You should then find the config file at `app/config/packages/opb/laravel-hipchat/config.php`. Edit it to specify the required settings (API token and default room name) and additional default options.
 
 Register the service provider in `app.php`:
 
@@ -91,13 +91,13 @@ $options = [
 HipchatNotifier::message($message, $options);
 ```
 
-If you're not going to use the facade, and resolver directly out of the IOC container, the key is `hipchat-notifier`. For example:
+If you're not going to use the facade, and resolve directly out of the IOC container, the key is `hipchat-notifier`. For example:
 
 ```php
 $notifier = App::make('hipchat-notifier');
 ```
 
-Roadmap
+Todo
 -------
 
 - Support Laravel 5
