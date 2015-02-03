@@ -11,7 +11,7 @@ class HipchatNotifierServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
-	protected $defer = false;
+	protected $defer = true;
 
 	/**
 	 * Register the service provider.
@@ -23,7 +23,8 @@ class HipchatNotifierServiceProvider extends ServiceProvider {
 		$this->publishes([
 			__DIR__.'/../../config/config.php' => config_path('laravel-hipchat.php'),
 		]);
-		$this->app->bindShared('hipchat-notifier', function($app){
+		$this->app->singleton('hipchat-notifier', function($app)
+		{
             $options = $app['config']->get('laravel-hipchat.config');
 
             $token = $options['apiToken'];
