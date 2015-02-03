@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Opb\\LaravelHipchat\\": "src/Opb/LaravelHipchat/"
+            "Opb\\LaravelHipchat\\": "src/LaravelHipchat/"
         }
     },
     "minimum-stability": "stable"
