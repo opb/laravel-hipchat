@@ -45,7 +45,7 @@ class HipchatNotifierServiceProvider extends ServiceProvider {
 
     public function boot()
     {
-        $this->package('opb/laravel-hipchat');
+        // $this->package('opb/laravel-hipchat');
         AliasLoader::getInstance()->alias(
             'HipchatNotifier',
             'Opb\LaravelHipchat\Facades\HipchatNotifier'
