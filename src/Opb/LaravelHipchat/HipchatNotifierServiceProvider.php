@@ -21,7 +21,7 @@ class HipchatNotifierServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->publishes([
-			__DIR__.'/../../config/config.php' => config_path('laravel-hipchat.php'),
+			__DIR__.'/../../config/config.php' => config_path('hipchat.php'),
 		]);
 		$this->app->singleton('hipchat-notifier', function($app)
 		{
