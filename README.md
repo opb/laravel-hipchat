@@ -31,7 +31,7 @@ HipchatNotifier::message($message, $options);
 Install into your Laravel app via composer. Note: use version 0.2 for Laravel 4, version 0.3 and above for Laravel 5.
 
 ```
-"opb/laravel-hipchat": "0.*",
+"opb/laravel-hipchat": "~0.3",
 ```
 and then
 
@@ -45,7 +45,7 @@ Register the service provider in `app.php`:
 Opb\LaravelHipchat\HipchatNotifierServiceProvider
 ```
 
-**Note: **The `HipchatNotifier` facade is registered automatically and does **not** need to be added to the `aliases` array in `app.php`.
+**Note:** The `HipchatNotifier` facade is registered automatically and does **not** need to be added to the `aliases` array in `app.php`.
 
 
 ### Config - Laravel 4 (package version 0.2)
