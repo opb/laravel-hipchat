@@ -25,7 +25,7 @@ class HipchatNotifierServiceProvider extends ServiceProvider {
 		]);
 		$this->app->singleton('hipchat-notifier', function($app)
 		{
-            $options = $app['config']->get('laravel-hipchat.config');
+            $options = \Config::get('hipchat');
 
             $token = $options['apiToken'];
             unset($options['apiToken']);
