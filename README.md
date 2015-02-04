@@ -1,7 +1,5 @@
 # Hipchat Notifier for Laravel 4
 
-**Note: use version 0.2 for Laravel 4, version 0.3 and above for Laravel 5**
-
 Quickly and easily send messages to Hipchat rooms, backgrounding via the Laravel queue by default. Uses v1 of the Hipchat API, with auth keys (as opposed to v2 with OAuth).
 
 A couple of usage examples:
@@ -28,10 +26,10 @@ HipchatNotifier::message($message, $options);
 
 ## Installation
 
-Install into your Laravel app via composer. Note: use version 0.2 for Laravel 4, version 0.3 and above for Laravel 5.
+Install into your Laravel app via composer.
 
 ```
-"opb/laravel-hipchat": "~0.3",
+"opb/laravel-hipchat": "~0.2",
 ```
 and then
 
