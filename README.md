@@ -1,4 +1,4 @@
-# Hipchat Notifier for Laravel 4
+# Hipchat Notifier for Laravel 4/5
 
 Quickly and easily send messages to Hipchat rooms, backgrounding via the Laravel queue by default. Uses v1 of the Hipchat API, with auth keys (as opposed to v2 with OAuth).
 
